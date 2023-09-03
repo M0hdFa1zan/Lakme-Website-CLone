@@ -1,0 +1,57 @@
+.plants {
+    display: flex;
+    margin-top: 37px;
+}
+
+.plantbox {
+    display: flex;
+    color: #3f3f3e;
+    font-family: "Suisse", sans-serif;
+    margin: 0 85px;
+}
+
+.pdetail {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.plantimage {
+    width: 78%;
+}
+
+#ptitle {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+#pdescr {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: "Zapf Humanist 601";
+}
+
+#ppara {
+    font-size: 16px;
+    text-align: left;
+    width: 90%;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+#pbutton {
+    text-align: left;
+    font-size: 15px;
+    font-family: "Suisse", sans-serif;
+    color: #252525;
+}
+
+#pbutton button {
+    font-size: .875rem;
+    text-align: left;
+    background-color: rgba(52, 52, 52, 0);
+    color: #252525;
+    border: 1px solid #D6D5CC;
+    padding: 19px 55px 19px 23px;
+    width: 300px;
+}

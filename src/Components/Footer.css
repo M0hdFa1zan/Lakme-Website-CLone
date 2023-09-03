@@ -1,0 +1,66 @@
+.footer {
+    display: grid;
+    grid-template-rows: 45% 45%;
+    grid-template-columns: 40% 20% 20% 19%;
+    background-color: #252525;
+    color: #fffef2;
+    font-family: "Suisse", sans-serif;
+    font-size: 14px;
+}
+
+.subs,
+.sust {
+    margin: 30px 20px 10px 40px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+    margin: 30px 20px 10px 20px;
+}
+
+#under {
+    text-decoration: underline;
+}
+
+#inp {
+    width: 98%;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #252525;
+    border: 1px solid #fffef2;
+    border-radius: 3px;
+    padding: 7px 2%;
+}
+
+::-webkit-input-placeholder {
+    color: #fffef2;
+    margin-left: 8px;
+}
+
+.subs {
+    /* background-color: red; */
+    justify-content: left;
+}
+
+#inpu {
+    width: 98%;
+}
+
+#check {
+    display: flex;
+    margin-top: 10px;
+    line-height: 1.7;
+    align-items: first baseline;
+}
+
+#checkb {
+    background-color: none;
+    border: 1px solid #eeeef2;
+}
+
+#suspara {
+    line-height: 1.7;
+}

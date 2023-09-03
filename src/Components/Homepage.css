@@ -1,0 +1,117 @@
+.hesoyam {
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    background-color: #fffef2;
+    align-items: center;
+    padding: 12.5px 0;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#logo {
+
+    margin-bottom: 240px;
+    margin-left: 33px;
+    display: flex;
+    /* background-color: red; */
+    position: absolute;
+}
+
+#hemlo {
+    width: 28%;
+}
+
+@media screen and (max-width: 1000px) {
+    img {
+        height: 700px;
+    }
+
+    #logo {
+        width: 400px;
+    }
+
+    #hemlo {
+        height: 100px;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+
+.lists {
+    display: flex;
+    flex-grow: 1.5;
+    margin-left: 40px;
+    margin-top: 0%;
+    align-items: center;
+    overflow: clip;
+}
+
+#nav_items {
+    font-family: "Suisse Medium", sans-serif;
+    margin-right: 35px;
+}
+
+.lists2 {
+    justify-content: right;
+    display: flex;
+    flex-grow: .5;
+}
+
+.containe {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.detail {
+    font-family: "Suisse Regular", sans-serif;
+    width: 34%;
+    color: #FFFEF2;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-left: 17%;
+}
+
+#para {
+    width: 85%;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+#title {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+#descr {
+    font-size: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 0;
+}
+
+.detail button {
+    font-size: .875rem;
+    font-family: "Suisse Regular", sans-serif;
+    text-align: left;
+    background-color: rgba(52, 52, 52, 0);
+    color: #FFFEF2;
+    border: 1px solid #FFFEF2;
+    padding: 19px 55px 19px 23px;
+    width: 300px;
+}

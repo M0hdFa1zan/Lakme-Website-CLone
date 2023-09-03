@@ -1,0 +1,53 @@
+.store {
+    display: flex;
+    margin-top: 37px;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.storebox {
+    display: flex;
+    color: #3f3f3e;
+    font-family: "Suisse", sans-serif;
+    margin: 0 85px;
+}
+
+.stdetail {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.storeimage {
+    width: 70%;
+}
+
+#stdescr {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: "Zapf Humanist 601";
+}
+
+#stpara {
+    font-size: 16px;
+    text-align: left;
+    width: 70%;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+#stbutton {
+    text-align: left;
+    font-size: 15px;
+    font-family: "Suisse", sans-serif;
+    color: #252525;
+}
+
+#stbutton button {
+    font-size: .875rem;
+    text-align: left;
+    background-color: rgba(52, 52, 52, 0);
+    color: #252525;
+    border: 1px solid #D6D5CC;
+    padding: 19px 55px 19px 23px;
+    width: 300px;
+}

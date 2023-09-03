@@ -1,0 +1,53 @@
+.alert {
+    color: #353535;
+    text-align: center;
+    background-color: #c2c2af;
+    padding: 10px 20px;
+}
+
+.alert p {
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    font-family: "Suisse Regular", sans-serif;
+    color: #3E3B38;
+    display: inline;
+    margin-top: 0%;
+}
+
+.alert span {
+    margin-left: 10px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.coupon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fffef2;
+    background-color: #252525;
+    padding: 12px 20px 10px;
+
+}
+
+.coupon p {
+    font-family: "Suisse Regular", sans-serif;
+    line-height: 1.5;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    display: inline;
+}
+
+.sign {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .alert,
+    .coupon {
+        text-align: left;
+    }
+}

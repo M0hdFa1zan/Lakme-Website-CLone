@@ -1,0 +1,48 @@
+@import url("https://db.onlinewebfonts.com/c/6a6a81952f22586994bf55bec6a6ed69?family=Zapf+Humanist+601+W03+It");
+
+.oilss {
+    display: flex;
+    color: #3f3f3e;
+    position: relative;
+    font-family: "Suisse", sans-serif;
+    padding: 150px 0 150px 0px;
+    margin: 0 85px;
+}
+
+.odetail {
+    width: 25%;
+    margin-right: 10px;
+    padding-right: 100px;
+}
+
+#obutton {
+    text-align: left;
+    font-size: 15px;
+    font-family: "Suisse", sans-serif;
+    color: #3f3f3e;
+}
+
+#opara {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+#otitle {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+#odescr {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-family: "Zapf Humanist 601";
+}
+
+.caro {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}

@@ -1,0 +1,53 @@
+.shower {
+    display: flex;
+    padding-top: 20px;
+}
+
+.showerbox {
+    display: flex;
+    color: #3f3f3e;
+    font-family: "Suisse", sans-serif;
+
+}
+
+.shdetail {
+    width: 57%;
+    margin-left: 80px;
+}
+
+.showerimage {
+    width: 100%;
+    margin-top: 5px;
+    padding-right: 80px;
+}
+
+#shdescr {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: "Zapf Humanist 601";
+}
+
+#shpara {
+    font-size: 16px;
+    text-align: left;
+    width: 85%;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+#shbutton {
+    text-align: left;
+    font-size: 15px;
+    font-family: "Suisse", sans-serif;
+    color: #252525;
+}
+
+#shbutton button {
+    font-size: .875rem;
+    text-align: left;
+    background-color: rgba(52, 52, 52, 0);
+    color: #252525;
+    border: 1px solid #D6D5CC;
+    padding: 19px 55px 19px 23px;
+    width: 300px;
+}
